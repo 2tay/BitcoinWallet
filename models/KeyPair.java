@@ -1,10 +1,10 @@
 package models;
 
-public class MasterKey {
+public class KeyPair {
     private final byte[] privateKey;
     private final byte[] chainCode;
 
-    public MasterKey(byte[] privateKey, byte[] chainCode) {
+    public KeyPair(byte[] privateKey, byte[] chainCode) {
         this.privateKey = privateKey;
         this.chainCode = chainCode;
     }
