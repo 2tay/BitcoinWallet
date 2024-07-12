@@ -11,7 +11,7 @@ public class Bip39Wordlist {
 
     static {
         List<String> wordList = new ArrayList<>();
-        try (BufferedReader br = new BufferedReader(new FileReader("bip-39.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("utility/bip-39.txt"))) {
             String line;
             while ((line = br.readLine()) != null) {
                 wordList.add(line);

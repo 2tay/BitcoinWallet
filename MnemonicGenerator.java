@@ -3,7 +3,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
 
-import utility.Bip39Wordlist;
+import utility.*;
 
 public class MnemonicGenerator {
     private static final String[] WORD_LIST = Bip39Wordlist.getWord_list();
